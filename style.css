@@ -2,33 +2,64 @@
 
 body {
     padding: 50px;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
 }
-.my-header{
-    float:left; 
-    padding-right: 850px;;
-        padding: 20px;
-        height: 30px;
-        width: 100%;
-        top: 0;
+body header img {
+    float:left;
+
+}
+body header img {
+    display: inline-block;
+    text-align: left;
+margin-top: -6;
+padding-bottom: 10px;
+}
+header h1{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: -3px;
+    margin-left: -231px;
+    font-family: 'Lobster' ;
+
+}
+#h4{
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: 2px;
+    padding-top: 5px;
+    float: left;
+    color: darkgray;
+    
+}
+header{
+    border-bottom: darkgray;
 }
 
+/* body header h4 {
+    display: inline-block;
+    margin-top: -4px;
+    margin-left: -158px;
+    padding-top: 5px;
+
+} */
 
 span{
-margin-left: 30px;
+margin-left: -61px;
+padding: 30px;
 }
 
-    .my-header nav{
-        float: right;
-        padding: 0 30px;
+#theNav ul  {
+display: inline-block;
+margin-left:10px;
+margin: 145px;
+padding: 0;
+overflow: hidden;
+}
+    li{
+        text-align: center;
+  padding: 2px;
+  display: block;
+float: left;
     }
-    .my-header nav ul li{
-        display: inline-block;
-        padding: 0;
-    }
-    
 
 h4{
     display: inline-block;
@@ -36,15 +67,94 @@ h4{
     /* position: fixed;
 } */
 }
-#font{
-    font-family: 'Trade Winds';
-    display: inline-block;
-    margin-bottom: -10px;
-    margin-left: 5px;
+main h1 {
+display: inline-block;
+text-align: left;
 
-    /* position: fixed;
-     */
+margin-bottom: 10px;
+    margin-top: -41px;
+    margin-left: -327px;
+    font-size: 50px;
 }
+#postedh3{
+    color: rgb(180, 174, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+       margin-bottom: 10px;
+       margin-left: 0px;
+       float: left;
+       display: inline-block;
+       margin-top: -10px;
+       padding-top: 42px;
+       color: darkgray;
+    
+}
+#icon {
+    margin-left: 300px;
+    display: inline-block;
+    font-size: 19px;
+    color: darkgray;
+}
+article img {
+    margin-left: 7px;
+    margin-right: auto;
+    width: 1228px;
+    height: 625px;
+}
+article p {
+    text-indent: 50px;
+    text-align: justify;
+    padding-left: 260px;
+    margin-right: 155px;
+    margin-left: -250px;
+    font-size: 26px;
+    color: darkgray;
+
+}
+#recipe{
+    background-image: url(imgs/list-bg.png);
+    width:1239px;
+    height: 302px;
+    background-repeat: repeat-x;
+
+}
+#leftside {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 29px;
+    font-family: 'Simonetta' ;
+
+}
+#rightside{
+    float: right;
+    font-size: 25px;
+    margin-top: 29px;
+    font-family: 'Simonetta' ;
+    margin-right: 116px;
+}
+#contect h3 {
+    display: inline-block;
+    float: right;
+    margin-right: 1068px;
+    margin-top: 1px;
+    font-size: 30px;
+}
+#contect p{
+    margin-top: -32px;
+    margin-left: 73px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contect button {
+    float: right;
+    background-color:rgb(255, 99, 71);
+    font-size: 30px;
+    color:whitesmoke;
+    margin-top: -42px;
+    margin-right: 250px;
+}
+
 ul{
     list-style-type:none;
 }
@@ -55,55 +165,44 @@ nav{
     margin-left: 80px;
 
 }
-main{
-     border-top: 5px solid black;
-    margin-top: 100px;
+main{    margin-top: 100px;
     width: 100%;
     height: 90%;
 }
-/* #pizza{
-    margin-top: 100px;
-    font-family: Krona One;
-} */
-
-#bestfod {
-    margin-left: 32px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-}
-#postedh3{
-    color: rgb(180, 174, 169);
-    font-family: Arial, Helvetica, sans-serif;
+#left {
     display: inline-block;
-       margin-top: 10px;
-    
+    float:left;
+    border: 1px solid darkgray;
+    width :50%;
+    margin-left: -710px;
+    margin-top: 35px;
+}
+
+footer img {
+    margin-left: -756px;
+    margin-right: auto;
+    margin-top: 16px;
+}
+#right {
+    border: 1px solid darkgray;
+    width :50%;
+    display: inline-block;
+    margin-top: 33px;
+    margin-left: 10px;
+    margin-right: -2px;
+    float: right;
+}
+#hr{
+    border: 1px solid darkgray;
+    margin-top: 43px;
+    width: 90%;
+
 }
 #print{
     margin-left: 550px;
 }
-#theCenterImage{
-    margin-left: auto;
-    margin-right: auto;
-}
-p{
+footer{
+    color: darkgray;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
 }
-.pic{
-    background-image:url("chocolate-pizza/imgs/list-bg.png");
-}
-.secondDiv{
-    display: inline-block;
-    width: 50%;
-    margin-left: 330px;
-    margin-top: -120px;
-
-}
-.Div{
-    display: inline-block;
-    width: 50%;
-    margin-left:50px;
-    margin-top: 10px;
-
-}
-

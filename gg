@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Choclet Pizza</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id="logo" src="imgs/logo.png" >
+        <h1>Delicious <br> <span>THE BEST FOOD BLOG ON THE WEB</span> </h1>
+        
+        <img src="imgs/pint-icon.png" class="limgs">
+        <img src="imgs/fb-icon.png" class="limgs">
+        <img src="imgs/twit-icon.png" class="limgs">
+        <img src="imgs/gp-icon.png" class="limgs">
+        <img src="imgs/insta-icon.png" class="limgs">
+        <img src="imgs/flic-icon.png" class="limgs">
+        <img src="imgs/mail-icon.png" class="li2">
+        <img src="imgs/rss-icon.png" class="li2">
+    </header>
+    <main>
+        <article>
+            <h2><span>Cocolate Pizza</span> <br> POSTED ON 15 DEC 2013 / DESSERTS</h2>
+            <img id="choco" src="imgs/choco-pizza.png">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque quis praesentium non et dolor molestias qui eveniet deserunt consequatur illo mollitia magni placeat aspernatur deleniti, tenetur fugiat esse. Amet, numquam.</p>  <br>          
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates minus consectetur quis, vero aliquam ad ipsum ut assumenda molestias, culpa tenetur dolorum ea at similique rem odio ex ullam tempora!</p> <br>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi atque error natus recusandae neque, placeat ipsa deserunt. Aliquid at molestiae nobis obcaecati, vitae alias dolorem laborum dicta corporis beatae ratione?</p>
+           <br>
+        </article>
+        <div>
+            <input type="checkbox">
+            <label for=""> 11/2 cups milk </label> <br>
+            <input type="checkbox"> 
+            <label for="">1/2 cup mascarpone</label> <br>
+            <input type="checkbox"> 
+            <label for="">1/2 tsp pink salt</label><br>
+            <input type="checkbox">
+            <label for="">1 lb Black Mission Figs</label> <br>
+            <input type="checkbox">
+            <label for="">1/2 cup brown sugar</label> <br>
+            <input type="checkbox"> 
+            <label for="">2-4 tbsp water</label> <br>
+            <input type="checkbox">
+            <label for="">1 1/2 cups heavy cream</label> <br>
+            <input type="checkbox">
+            <label for="">4/3 granduated sugar</label> <br>
+            <input type="checkbox">
+            <label for="">2 egg yolks</label> <br>
+            <input type="checkbox">
+            <label for="">1 lemon,juiced</label> <br>
+            <input type="checkbox">
+            <label for="">2 tbsp butter</label> <br>
+            <input type="checkbox">
+            <label for="">1 cup honey roasted pecans, roughly chopped</label> <br>
+        </div>
+                <section id="van"> <img src="imgs/van-pic.png">
+                <h3>Vanessa Stevenson</h3><br> Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
+                <button type="button"> SHARE RECIPE</button> </section>
+    </main>
+    <footer>
+        <hr>  <img src="imgs/small-logo.png" alt=""></hr>
+         Delicious &copy: 2013 • All Rights Reserved. Proudly published with Ghost. 
+    </footer>
+</body>
+</html>
+
+
+
+
+
+3:10
+body {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    padding-bottom: 80px;
+}
+header h1 {
+    font-family: 'Yellowtail';
+    font-size: xx-large;
+    float: left;
+}
+#logo {
+    float: left;
+}
+header h1 span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+.limgs {
+    float: right;
+    margin: 3px;
+}
+.li2 {
+    float: right;
+    margin: 2px;
+}
+article span {
+    font-size: xx-large;
+}
+#choco {
+    width: 700px;
+}
+button{
+    background-color: red;
+}
+#van {
+    float: left;
+}
